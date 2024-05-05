@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         MatrixGenerator matrixGenerator = new MatrixGenerator();
-        matrixGenerator.generate();
+        int[][] matrix = matrixGenerator.createMatrix();
+        matrixGenerator.printMatrix(matrix);
     }
 }
